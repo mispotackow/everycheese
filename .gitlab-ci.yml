@@ -1,6 +1,6 @@
 stages:
   - lint
-  - test
+  - tests
 
 variables:
   POSTGRES_USER: 'everycheese'
@@ -16,7 +16,7 @@ flake8:
     - flake8
 
 pytest:
-  stage: test
+  stage: tests
   image: python:3.8
   tags:
     - docker

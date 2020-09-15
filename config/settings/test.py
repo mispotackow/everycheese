@@ -13,7 +13,7 @@ SECRET_KEY = env(
     default="!!!SET DJANGO_SECRET_KEY!!!",
 )
 # https://docs.djangoproject.com/en/dev/ref/settings/#test-runner
-TEST_RUNNER = "django.test.runner.DiscoverRunner"
+TEST_RUNNER = "django.tests.runner.DiscoverRunner"
 
 # CACHES
 # ------------------------------------------------------------------------------
